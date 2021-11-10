@@ -7,6 +7,7 @@ public class FetchVaccinationDetails{
 		Vaccination pfizer = new Vaccination();
 		pfizer.setVaccinationName("Pfizer BioTech");
 		
+		//Getting the Vaccination Name
 		System.out.println(pfizer.getVaccinationName());
 		pfizer.numberOfVaccines();
 	}
